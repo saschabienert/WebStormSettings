@@ -1,5 +1,21 @@
 <keymap version="1" name="Eclipse (Mac OS X) copy" parent="Eclipse (Mac OS X)">
+  <action id="AutoIndentLines">
+    <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
   <action id="EditorDuplicateLines" />
+  <action id="EditorNextWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+  </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
   </action>
@@ -27,5 +43,13 @@
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="ctrl meta e" />
   </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift meta f11" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="RunToCursor" />
   <action id="ToggleFullScreen" />
 </keymap>

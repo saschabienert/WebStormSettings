@@ -1,8 +1,30 @@
 <keymap version="1" name="Eclipse (Mac OS X) copy" parent="Eclipse (Mac OS X)">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="meta 1" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta #10000a7" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
   <action id="AutoIndentLines">
-    <keyboard-shortcut first-keystroke="meta i" />
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl meta left" />
+  </action>
+  <action id="Console.Open" />
+  <action id="Diff.FocusOppositePane" />
+  <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorChooseLookupItemCompleteStatement" />
+  <action id="EditorCompleteStatement" />
   <action id="EditorDuplicateLines" />
   <action id="EditorNextWordInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="ctrl right" />
@@ -16,19 +38,17 @@
   <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
-  <action id="Find">
-    <keyboard-shortcut first-keystroke="meta f" />
-  </action>
+  <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoProject" />
   <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="ctrl h" />
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
-  <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="f3" />
-    <mouse-shortcut keystroke="meta button1" />
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
-  <action id="GuiDesigner.Duplicate">
-    <keyboard-shortcut first-keystroke="meta alt up" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="meta #10000a7" />
   </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="meta alt down" />
@@ -36,35 +56,28 @@
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="ctrl meta i" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
-  <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift f6" />
-    <keyboard-shortcut first-keystroke="ctrl meta e" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="Replace">
-    <keyboard-shortcut first-keystroke="meta alt r" />
+    <keyboard-shortcut first-keystroke="meta f" />
   </action>
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="shift meta f11" />
-    <keyboard-shortcut first-keystroke="meta r" />
+  <action id="SavaAs" />
+  <action id="ShowIntentionActions" />
+  <action id="ShowReformatFileDialog">
+    <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
-  <action id="RunToCursor" />
-  <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  <action id="Switcher" />
+  <action id="Uml.NodeIntentions" />
+  <action id="Vcs.ReformatCommitMessage" />
+  <action id="XDebugger.Inspect" />
+  <action id="linessorter.sort">
+    <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
-  <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="ctrl alt down" />
-  </action>
-  <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="ctrl alt left" />
-  </action>
-  <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="ctrl alt right" />
-  </action>
-  <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="ctrl alt up" />
-  </action>
-  <action id="ToggleFullScreen" />
 </keymap>

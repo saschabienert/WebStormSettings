@@ -18,13 +18,33 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl meta left" />
   </action>
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="CodeCleanup">
+    <keyboard-shortcut first-keystroke="shift meta alt u" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.History.Browse" />
   <action id="Console.Open" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorCompleteStatement" />
+  <action id="EditorDeleteLine" />
   <action id="EditorDuplicateLines" />
   <action id="EditorNextWordInDifferentHumpsMode">
     <keyboard-shortcut first-keystroke="ctrl right" />
@@ -38,17 +58,45 @@
   <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
+  <action id="EvaluateExpression" />
+  <action id="ExtractInterface">
+    <keyboard-shortcut first-keystroke="meta alt 3" />
+  </action>
+  <action id="ExtractSuperclass">
+    <keyboard-shortcut first-keystroke="meta alt 1" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoProject" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
+  <action id="FindUsagesInFile" />
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
+  <action id="GotoFile" />
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="meta #10000a7" />
+  </action>
+  <action id="InspectCode">
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
+  <action id="IntroduceConstant">
+    <keyboard-shortcut first-keystroke="meta alt c" />
+  </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="meta alt v" />
+  </action>
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="shift ctrl meta left" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="shift ctrl meta right" />
+  </action>
+  <action id="Move">
+    <keyboard-shortcut first-keystroke="meta alt 5" />
   </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="meta alt down" />
@@ -59,25 +107,58 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
+  <action id="PerforceDirect.Edit" />
+  <action id="PopupHector">
+    <keyboard-shortcut first-keystroke="ctrl meta alt u" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="meta alt e" />
+    <keyboard-shortcut first-keystroke="ctrl meta e" />
+  </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta f" />
   </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="RunInspection">
+    <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
+  <action id="RunToCursor" />
   <action id="SavaAs" />
+  <action id="SendEOF" />
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowIntentionActions" />
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
+  <action id="ShowUmlDiagram" />
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="meta escape" />
+  </action>
+  <action id="StopBackgroundProcesses">
+    <keyboard-shortcut first-keystroke="shift meta escape" />
+  </action>
   <action id="Switcher" />
   <action id="Uml.NodeIntentions" />
+  <action id="Uml.ShowDiff" />
   <action id="Vcs.ReformatCommitMessage" />
   <action id="XDebugger.Inspect" />
   <action id="linessorter.sort">
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
+  <action id="liveedit.UpdateRunningApplication">
+    <keyboard-shortcut first-keystroke="meta f10" />
+    <keyboard-shortcut first-keystroke="meta b" />
+  </action>
+  <action id="openAssertEqualsDiff" />
 </keymap>

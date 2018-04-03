@@ -6,7 +6,7 @@
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="shift meta #10000a7" />
+    <keyboard-shortcut first-keystroke="alt #10000a7" />
   </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="shift meta enter" />
@@ -47,6 +47,9 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift meta #10000a7" />
+  </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="meta #10000a7" />
   </action>
@@ -74,6 +77,9 @@
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
   <action id="Switcher" />
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="shift alt #10000a7" />
+  </action>
   <action id="Uml.NodeIntentions" />
   <action id="Vcs.ReformatCommitMessage" />
   <action id="XDebugger.Inspect" />

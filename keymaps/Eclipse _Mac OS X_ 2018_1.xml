@@ -42,9 +42,7 @@
   <action id="Diff.ShowSettingsPopup" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
-  <action id="EditSource">
-    <mouse-shortcut keystroke="button1" />
-  </action>
+  <action id="EditSource" />
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine" />

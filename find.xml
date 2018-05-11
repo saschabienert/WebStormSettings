@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../server.js [mock-server]'" />
-    <option name="defaultScopeName" value="File '.../server.js [mock-server]'" />
-    <option name="SEARCH_SCOPE" value="File '.../server.js [mock-server]'" />
+    <option name="customScope" value="File '.../public/heyzap/test_cases/T259/1.0/mediate.json [mock-server]'" />
+    <option name="defaultScopeName" value="File '.../public/heyzap/test_cases/T259/1.0/mediate.json [mock-server]'" />
+    <option name="SEARCH_SCOPE" value="File '.../public/heyzap/test_cases/T259/1.0/mediate.json [mock-server]'" />
   </component>
 </application>

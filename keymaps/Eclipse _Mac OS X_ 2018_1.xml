@@ -6,7 +6,7 @@
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="shift meta #10000a7" />
+    <keyboard-shortcut first-keystroke="alt #10000a7" />
   </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="shift meta enter" />
@@ -42,6 +42,7 @@
   <action id="Diff.ShowSettingsPopup" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditSource" />
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine" />
@@ -76,7 +77,21 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f3" />
+    <mouse-shortcut keystroke="control button1" />
+    <keyboard-shortcut first-keystroke="ctrl meta alt right" />
+  </action>
   <action id="GotoFile" />
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl meta alt down" />
+  </action>
+  <action id="GotoSuperMethod">
+    <keyboard-shortcut first-keystroke="ctrl meta alt up" />
+  </action>
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift meta #10000a7" />
+  </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="meta #10000a7" />
   </action>
@@ -149,6 +164,12 @@
     <keyboard-shortcut first-keystroke="shift meta escape" />
   </action>
   <action id="Switcher" />
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="shift alt #10000a7" />
+  </action>
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="ctrl meta p" />
+  </action>
   <action id="Uml.NodeIntentions" />
   <action id="Uml.ShowDiff" />
   <action id="Vcs.ReformatCommitMessage" />

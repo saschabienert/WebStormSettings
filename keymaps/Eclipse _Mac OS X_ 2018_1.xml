@@ -95,6 +95,12 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f3" />
     <mouse-shortcut keystroke="control button1" />
@@ -201,6 +207,9 @@
   </action>
   <action id="Uml.NodeIntentions" />
   <action id="Uml.ShowDiff" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
   <action id="Vcs.ReformatCommitMessage" />
   <action id="Vcs.RollbackChangedLines">
     <keyboard-shortcut first-keystroke="shift meta back_space" />

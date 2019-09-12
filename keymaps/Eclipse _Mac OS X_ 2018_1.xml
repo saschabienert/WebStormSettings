@@ -41,6 +41,9 @@
     <keyboard-shortcut first-keystroke="shift meta alt u" />
   </action>
   <action id="CodeGlance.toggle" />
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta alt minus" />
+  </action>
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="shift meta alt enter" />
   </action>
@@ -77,6 +80,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl left" />
   </action>
   <action id="EvaluateExpression" />
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta alt equals" />
+  </action>
   <action id="ExtractInterface">
     <keyboard-shortcut first-keystroke="meta alt 3" />
   </action>

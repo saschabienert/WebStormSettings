@@ -1,4 +1,5 @@
 <keymap version="1" name="Eclipse (Mac OS X) 2018.1" parent="Eclipse (Mac OS X)">
+  <action id="ActivateCommitToolWindow" />
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="meta 9" />
   </action>
